@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name                Twitter 'h抜き' とはおさらば
-// @description         h抜きURLとはおさらば！それだけ！
+// @name                Twitter Goodbye 'h' Less Url
+// @description         h抜きとはおさらば！それだけ！
 // @version             1.0
 // @author              Yos_sy
 // @match               *://*.x.com/*
