@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                Twitter Goodbye 'h' Less Url
 // @description         h抜きとはおさらば！それだけ！
-// @version             1.0
+// @version             0.9
 // @author              Yos_sy
 // @match               *://*.x.com/*
 // @namespace           http://tampermonkey.net/
