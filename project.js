@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                Twitter Goodbye 'h' Less Url
 // @description         h抜きとはおさらば！それだけ！
-// @version             0.9
+// @version             1.0
 // @author              Yos_sy
 // @match               *://*.x.com/*
 // @namespace           http://tampermonkey.net/
@@ -9,6 +9,8 @@
 // @license             MIT
 // @run-at              document-start
 // @grant               none
+// @downloadURL         https://update.greasyfork.org/scripts/512559/twitter-goodbye-h-less-url.user.js
+// @updateURL           https://update.greasyfork.org/scripts/512559/twitter-goodbye-h-less-url.meta.js
 // ==/UserScript==
 
 (function () {
