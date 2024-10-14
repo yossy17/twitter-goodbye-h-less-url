@@ -22,10 +22,21 @@
       const text = element.textContent;
       const regex = /(?<!h)ttps:\/\/\S+/g;
       const replacedText = text.replace(regex, (match) => {
-        return `<a href="h${match}" rel="noopener noreferrer nofollow" target="_blank" role="link" class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3 r-1loqt21" style="text-overflow: unset; color: rgb(29, 155, 240);">h${match}</a>`;
+        return `<a href="h${match}" rel="noopener noreferrer nofollow" target="_blank" role="link" class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3 r-1loqt21" style="text-overflow: unset; color: #eec968;">h${match}</a>`;
       });
       if (text !== replacedText) {
         element.innerHTML = replacedText;
+
+        // ホバーイベント
+        const links = element.querySelectorAll("a");
+        links.forEach((link) => {
+          link.addEventListener("mouseover", () => {
+            link.classList.add("r-1ny4131", "r-1ddef8g", "r-tjvw6i");
+          });
+          link.addEventListener("mouseout", () => {
+            link.classList.remove("r-1ny4131", "r-1ddef8g", "r-tjvw6i");
+          });
+        });
       }
     });
   }
